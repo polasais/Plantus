@@ -10,9 +10,9 @@ export function Header() {
                 <h1 className="header-name">Plantus</h1>
             </Link>
             <div className="header-right-side">
-                <input placeholder="Search" />
-                <button>Account</button>
-                <button>My Garden</button>
+                <input placeholder="Search plant or zipcode" />
+                <button className="buttons account-button">Account</button>
+                <button className="buttons garden-button">My Garden</button>
             </div>
         </header>
     );
