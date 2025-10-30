@@ -85,7 +85,7 @@ header {
 
 .buttons:hover {
     cursor: pointer;
-    border: solid 2px var(--text-green-hover);
+    border: solid 2px var(--text-green);
 }
 
 .buttons:active {
