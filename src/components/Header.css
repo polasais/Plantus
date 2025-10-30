@@ -1,0 +1,30 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto 20px;
+}
+
+/* ===================================================
+                Left Side 
+=====================================================*/
+
+.header-left-side {
+    display: flex;
+}
+
+.header-left-side img {
+    height: 75px;
+    width: auto;
+    margin-right: 20px;
+}
+
+
+/* ===================================================
+                Right Side 
+=====================================================*/
+
+.header-right-side {
+    display: flex;
+    gap: 20px;
+}
