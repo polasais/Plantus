@@ -1,0 +1,9 @@
+footer {
+  background-color: var(--text-green);
+  color: var(--background-green);
+  font-size: 1.3rem;
+  font-family: 'libre-baskerville';
+  padding: 20px;
+  text-align: center;
+  margin-top: 50px;
+}

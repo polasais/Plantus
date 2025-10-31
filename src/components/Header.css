@@ -1,22 +1,13 @@
 /* ===================================================
                 Entire Header
 =====================================================*/
-:root {
-    --lightest-green: #f2fae5;
-    --background-green: #e2ebd5;
-    --border-light-green: #cce2ba;
-    --text-green: #839a6f;
-    --text-green-hover: #6f845d;
-    --cream-background: #f8f4f0;
-    --gray-text: #2e2e2e;
-}
 
 header {
-    background-color: var(--background-green);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px 40px;
+  background-color: var(--background-green);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
 }
 
 /* ===================================================
@@ -24,26 +15,26 @@ header {
 =====================================================*/
 
 .header-left-side {
-    display: flex;
-    align-items: center;
-    color: var(--text-green);
+  display: flex;
+  align-items: center;
+  color: var(--text-green);
 }
 
 .header-left-side h1 {
-    font-family: "Rubik Beastly", sans-serif;
-    font-size: 4rem;
-    font-weight: 400;
-    line-height: 0;
+  font-family: 'Rubik Beastly', sans-serif;
+  font-size: 4rem;
+  font-weight: 400;
+  line-height: 0;
 }
 
 .header-left-side img {
-    height: 60px;
-    width: auto;
-    margin-right: 20px;
+  height: 60px;
+  width: auto;
+  margin-right: 20px;
 }
 
 .header-left-side h1:hover {
-    color: var(--text-green-hover);
+  color: var(--text-green-hover);
 }
 
 /* ===================================================
@@ -51,44 +42,44 @@ header {
 =====================================================*/
 
 .header-right-side {
-    font-family: "inter";
-    display: flex;
-    gap: 20px;
+  font-family: 'inter';
+  display: flex;
+  gap: 20px;
 }
 
 .header-right-side input {
-    height: 40px;
-    width: 250px;
-    padding-left: 1rem;
-    font-weight: 500;
-    font-size: 0.95em;
-    border: solid 2px var(--border-light-green);
-    border-radius: 15px;
-    transition: all 0.2s ease;
+  height: 40px;
+  width: 250px;
+  padding-left: 1rem;
+  font-weight: 500;
+  font-size: 0.95em;
+  border: solid 2px var(--border-light-green);
+  border-radius: 15px;
+  transition: all 0.2s ease;
 }
 
 .header-right-side input:focus {
-    outline: none;
-    border: dashed 2px var(--text-green);
-    width: 300px;
-    transition: all 0.2s ease;
+  outline: none;
+  border: dashed 2px var(--text-green);
+  width: 300px;
+  transition: all 0.2s ease;
 }
 
 .buttons {
-    color: var(--gray-text);
-    width: 130px;
-    font-weight: 700;
-    border: solid 2px transparent;
-    border-radius: 15px;
-    background-color: var(--lightest-green);
+  color: var(--gray-text);
+  width: 130px;
+  font-weight: 700;
+  border: solid 2px transparent;
+  border-radius: 15px;
+  background-color: var(--lightest-green);
 }
 
 .buttons:hover {
-    cursor: pointer;
-    border: solid 2px var(--text-green);
+  cursor: pointer;
+  border: solid 2px var(--text-green);
 }
 
 .buttons:active {
-    cursor: pointer;
-    border: dashed 2px var(--text-green-hover);
+  cursor: pointer;
+  border: dashed 2px var(--text-green-hover);
 }
