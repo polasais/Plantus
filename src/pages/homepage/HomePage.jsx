@@ -1,8 +1,11 @@
+import { Header } from '../../components/Header';
+
 export function HomePage() {
     return (
         <>
             <title>Homepage</title>
 
+            <Header />
             <div className="home-hero">
                 <h2>
                     Discover native <span>plants</span> that thrive in your
