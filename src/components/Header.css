@@ -62,7 +62,7 @@ header {
     padding-left: 1rem;
     font-weight: 500;
     font-size: 0.95em;
-    border: solid 2px var(--text-green);
+    border: solid 2px var(--border-light-green);
     border-radius: 15px;
     transition: all 0.2s ease;
 }

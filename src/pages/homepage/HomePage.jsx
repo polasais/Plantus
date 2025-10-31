@@ -1,42 +1,40 @@
-import { Header } from '../../components/Header';
-import '../../reset.css';
-import './HomePage.css';
+import { Header } from "../../components/Header";
+import "../../reset.css";
+import "./HomePage.css";
 
 export function HomePage() {
     return (
         <>
             <title>Homepage</title>
-
             <div className="home-hero">
                 <h2>
-                    Discover native <span>plants</span> that thrive in your
-                    zone.
+                    Discover native <span>plants</span> that thrive in your zone
+                    <span>.</span>
                 </h2>
                 <h3>
-                    Enter your ZIP code to find plants that flourish in your
-                    climate. Track your garden's growth and watch your ecosystem
-                    thrive.
+                    Enter your ZIP code to find plants that thrive in your zone,
+                    or search plants by name to see where it grows.
                 </h3>
-                <div className="zip-and-name">
-                    <div className="zip">
-                        <h4>Search by Zip Code</h4>
-                        <input type="text" placeholder="Enter zip code" />
-                        <button>Find my zip code</button>
+                <div className="ZIP-and-name">
+                    <div className="ZIP">
+                        <h4>Search by ZIP Code</h4>
+                        <input type="text" placeholder="Enter ZIP code" />
+                        <button className="location-link">
+                            Find my location
+                        </button>
                     </div>
                     <div className="separator"></div>
                     <div className="name">
-                        <h4>
-                            <em>Or</em> Search by Plant Name
-                        </h4>
+                        <h4>Or search by plant name</h4>
                         <input type="text" placeholder="Enter plant name" />
                     </div>
                 </div>
             </div>
             <div className="home-quote">
                 <blockquote className="quote">
-                    "Here will be the quote."
+                    "Plant quote of the day"
                 </blockquote>
-                <p className="author">Author Placeholder</p>
+                <p className="author">Jessica Alba</p>
             </div>
         </>
     );
