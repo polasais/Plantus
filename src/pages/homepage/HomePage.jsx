@@ -1,20 +1,21 @@
 import { Header } from '../../components/Header';
+import '../../reset.css';
+import './HomePage.css';
 
 export function HomePage() {
     return (
         <>
             <title>Homepage</title>
 
-            <Header />
             <div className="home-hero">
                 <h2>
                     Discover native <span>plants</span> that thrive in your
                     zone.
                 </h2>
                 <h3>
-                    Enter your ZIP code or allow location access to find plants
-                    that flourish in your climate. Track your garden's growth,
-                    get care reminders, and watch your ecosystem thrive.
+                    Enter your ZIP code to find plants that flourish in your
+                    climate. Track your garden's growth and watch your ecosystem
+                    thrive.
                 </h3>
                 <div className="zip-and-name">
                     <div className="zip">

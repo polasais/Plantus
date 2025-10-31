@@ -1,1 +1,35 @@
+:root {
+  --lightest-green: #f2fae5;
+  --background-green: #e2ebd5;
+  --border-light-green: #cce2ba;
+  --text-green: #839a6f;
+  --text-green-hover: #6f845d;
+  --cream-background: #f8f4f0;
+  --gray-text: #2e2e2e;
+}
 
+.home-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.home-hero h2 {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.home-hero h2 span {
+  font-family: 'Rubik Beastly', sans-serif;
+  font-size: 3.5rem;
+  line-height: 0;
+}
+
+.home-hero h3 {
+  font-family: 'inter', serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
