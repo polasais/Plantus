@@ -1,9 +1,9 @@
 footer {
   background-color: var(--text-green);
   color: var(--background-green);
-  font-size: 1.3rem;
+  font-size: 0.85rem;
   font-family: 'libre-baskerville';
-  padding: 20px;
+  padding: 5px;
   text-align: center;
   margin-top: 50px;
 }
