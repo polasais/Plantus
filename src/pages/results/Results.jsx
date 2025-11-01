@@ -1,4 +1,5 @@
 import "../../reset.css";
+import "./Results.css"
 
 export function Results() {
     return (
@@ -27,11 +28,12 @@ export function Results() {
                 <div className="results-left">
                     <h4 className="noInput">Showing 205 results</h4>
                     <h4 className="yesInput">
-                        Showing 205 results for: Rose
+                        Showing 205 results for: <span>Rose</span>
                     </h4>
                 </div>
                 <div className="results-right">
-                    <h5 className="yesFilters">Filters Applied: Filter filter</h5>
+                    <h5 className="yesFilters">Filters Applied:</h5>
+                    <p>Filter,filter</p>
                 </div>
             </div>
         </>

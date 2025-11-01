@@ -1,0 +1,108 @@
+/* ===================================================
+                Top hero section
+=====================================================*/
+
+.header-sentences {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.header-sentences h2 {
+    font-family: "Libre Baskerville", serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--gray-text);
+}
+
+.header-sentences h3 {
+    font-family: "inter";
+    font-weight: 400;
+    color: var(--medium-gray-text);
+    font-size: 1rem;
+}
+
+/* ===================================================
+                Input section
+=====================================================*/
+
+.inputs {
+    display: flex;
+    margin: 20px 50px;
+    justify-content: space-between;
+}
+
+.inputs-left-side {
+    display: flex;
+    gap: 10px;
+}
+
+.search-box {
+    font-family: "inter";
+    height: 40px;
+    width: 250px;
+    padding-left: 1rem;
+    font-weight: 500;
+    font-size: 0.95em;
+    border: solid 2px var(--text-green);
+    border-radius: 15px;
+    transition: all 0.2s ease;
+}
+
+.search-box:focus {
+    outline: none;
+    border: dashed 2px var(--text-green);
+    width: 300px;
+    transition: all 0.2s ease;
+}
+
+.inputs button {
+    font-family: "inter";
+    font-size: 0.9rem;
+    font-weight: 600;
+    border: solid 2px transparent;
+    border-radius: 15px;
+    height: 100%;
+    width: 125px;
+    background-color: var(--text-green);
+    color: var(--cream-background);
+}
+
+.inputs button:hover {
+    border: dashed 2px var(--cream-background);
+}
+
+/* ===================================================
+                Results section
+=====================================================*/
+
+.results-text {
+    margin: 0 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.results-left h4 {
+    font-family: "inter";
+    font-weight: 500;
+}
+
+.results-left span {
+    font-weight: 700;
+    font-style: italic;
+}
+
+.noInput {
+    display: none;
+}
+
+
+.results-right h5 {
+    font-family: "inter";
+    font-size: 1rem;
+}
+
+.results-right p {
+    font-family: "inter";
+    font-size: 0.9rem;
+    font-style: italic;
+}
