@@ -1,5 +1,6 @@
-import "../../reset.css";
-import "./Results.css"
+import { ResultsGrid } from './ResultsGrid';
+import '../../reset.css';
+import './Results.css';
 
 export function Results() {
     return (
@@ -36,6 +37,7 @@ export function Results() {
                     <p>Filter,filter</p>
                 </div>
             </div>
+            <ResultsGrid />
         </>
     );
 }
