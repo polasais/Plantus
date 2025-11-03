@@ -1,0 +1,166 @@
+/* ===================================================
+                Results Grid
+=====================================================*/
+.results-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.plant-card {
+  background: white;
+  border-radius: 20px;
+  overflow: visible;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  font-family: 'Inter', sans-serif;
+  position: relative;
+}
+
+.plant-card .top {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  right: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  z-index: 10;
+}
+
+.plant-card .nativeness {
+  background: var(--text-green-hover);
+  color: var(--cream-background);
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.plant-card .add-to-garden {
+  background: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: padding 0.3s ease;
+  white-space: nowrap;
+  overflow: hidden;
+  min-width: 44px;
+}
+
+.plant-card .add-to-garden::after {
+  content: '';
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.plant-card .add-to-garden:hover::after {
+  content: ' Add to Garden';
+  opacity: 1;
+}
+
+.plant-card .add-to-garden:hover {
+  padding: 8px 24px;
+}
+
+.plant-card .add-to-garden:active {
+  background: var(--lightest-green);
+}
+
+.plant-card .plant-img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1;
+  object-fit: cover;
+  display: block;
+  border-radius: 20px 20px 0 0;
+}
+
+.plant-card .bottom {
+  padding: 24px;
+  background: var(--cream-background);
+  display: flex;
+  flex-direction: column;
+  border-radius: 0 0 20px 20px;
+}
+
+.plant-card .names h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--gray-text);
+  line-height: 0.9;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.plant-card .names h4 {
+  margin: 4px 0 0 0;
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: italic;
+  color: var(--medium-gray-text);
+  font-family: 'Libre Baskerville', serif;
+}
+
+.plant-card .separator {
+  height: 1px;
+  width: 100%;
+  background: var(--lightest-gray-text);
+  margin: 5px 0;
+}
+
+.plant-card .plant-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.plant-card .info-row {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.plant-card .info-row .icon {
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--medium-gray-text);
+}
+
+.plant-card .info-row .label {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--gray-text);
+  min-width: 4rem;
+}
+
+.plant-card .info-row .value {
+  font-size: 1rem;
+  color: var(--medium-gray-text);
+}
+
+.learn-more {
+  background: var(--text-green);
+  color: white;
+  border: none;
+  padding: 8px 30px;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  align-self: flex-end;
+  margin-top: 8px;
+}
+
+.learn-more:hover {
+  background: var(--text-green-hover);
+}
