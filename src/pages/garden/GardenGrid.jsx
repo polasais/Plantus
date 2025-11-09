@@ -17,7 +17,7 @@ export function GardenGrid() {
                             <h4>Scientific Name</h4>
                         </div>
                         <div className="separator"></div>
-                        <div class="plant-info">
+                        <div class="plant-care">
                             <div class="section-row">
                                 <button>Water</button>
                                 <div className="watering-text">
@@ -26,7 +26,7 @@ export function GardenGrid() {
                                 </div>
                                 <div className="watering-dates">
                                     <p>Overdue!</p>
-                                    <span>June 14th</span>
+                                    <span>06/01/2025</span>
                                 </div>
                             </div>
 
@@ -36,14 +36,14 @@ export function GardenGrid() {
                                     <p>Next Repotting</p>
                                     <span>Last Repotted</span>
                                 </div>
-                                <div className="watering-dates">
-                                    <p>June 15th, 2026</p>
-                                    <span>June 15th, 2025</span>
+                                <div className="potting-dates">
+                                    <p>07/01/2026</p>
+                                    <span>06/01/2025</span>
                                 </div>
                             </div>
                         </div>
                         <div className="separator"></div>
-                        <div>
+                        <div className="planted-date">
                             <p>Planted</p>
                             <input type="Date" />
                         </div>
