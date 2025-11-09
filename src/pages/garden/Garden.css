@@ -1,0 +1,8 @@
+.garden-search-text {
+    display: flex;
+    font-family: "inter";
+    font-weight: 700;
+    color: var(--gray-text);
+    font-size: 1.1rem;
+    align-self: center;
+}

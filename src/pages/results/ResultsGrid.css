@@ -3,7 +3,7 @@
 =====================================================*/
 .results-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 30px;
   max-width: 1200px;
   margin: 0 auto;
@@ -35,7 +35,7 @@
 .plant-card .nativeness {
   background: var(--text-green-hover);
   color: var(--cream-background);
-  padding: 8px 20px;
+  padding: 8px 15px;
   border-radius: 20px;
   font-size: 16px;
   font-weight: 600;
@@ -45,10 +45,10 @@
 .plant-card .add-to-garden {
   background: white;
   border: none;
-  padding: 8px 12px;
+  padding: 8px 8px;
   border-radius: 12px;
   font-size: 1rem;
-  font-weight: 500;
+  font-weight: 600;
   cursor: pointer;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   transition: padding 0.3s ease;
@@ -69,7 +69,7 @@
 }
 
 .plant-card .add-to-garden:hover {
-  padding: 8px 24px;
+  padding: 8px 10px;
 }
 
 .plant-card .add-to-garden:active {
@@ -137,28 +137,29 @@
 }
 
 .plant-card .info-row .label {
-  font-size: 1rem;
-  font-weight: 600;
-  color: var(--gray-text);
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--medium-gray-text);
   min-width: 4rem;
 }
 
 .plant-card .info-row .value {
-  font-size: 1rem;
-  color: var(--medium-gray-text);
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--gray-text);
 }
 
 .learn-more {
   background: var(--text-green);
   color: white;
   border: none;
-  padding: 8px 30px;
+  padding: 5px 30px;
   border-radius: 50px;
   font-size: 16px;
   font-weight: 600;
   cursor: pointer;
   align-self: flex-end;
-  margin-top: 8px;
+  margin-top: 20px;
 }
 
 .learn-more:hover {
