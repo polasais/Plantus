@@ -1,5 +1,5 @@
-import "../../reset.css";
-import "./GardenGrid.css";
+import '../../reset.css';
+import './GardenGrid.css';
 
 export function GardenGrid() {
     return (
@@ -45,7 +45,7 @@ export function GardenGrid() {
                         <div className="separator"></div>
                         <div className="planted-date">
                             <p>Planted</p>
-                            <input type="Date" />
+                            <input type="date" />
                         </div>
                     </div>
                 </div>
